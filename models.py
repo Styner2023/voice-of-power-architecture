@@ -1,2 +1,1 @@
-python3 manage.py makemigrations
-python3 manage.py migrate
+# This file is intentionally left blank
