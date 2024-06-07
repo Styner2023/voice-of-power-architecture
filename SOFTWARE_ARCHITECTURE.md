@@ -10,6 +10,42 @@
 ## UML Diagrams
 
 ### Use Case Diagram
+![Use Case Diagram](path/to/your/image/use_case_diagram.png)
+
+### Class Diagram
+![Class Diagram](path/to/your/image/class_diagram.png)
+
+### Sequence Diagram for User Registration
+![Sequence Diagram](path/to/your/image/sequence_diagram.png)
+
+### Activity Diagram for File Upload Process
+![Activity Diagram](path/to/your/image/activity_diagram.png)
+
+
+## Detailed Components
+
+### User Interface (UI)
+- **Components**: Registration Form, Login Form, File Upload Interface, Audio Player, Settings Page
+- **Technology**: HTML, CSS, JavaScript (React, Angular, or Vue)
+
+### Backend Services
+- **Components**: 
+  - **AuthService**: Handles user authentication and authorization.
+  - **FileService**: Manages file uploads and storage.
+  - **TTSService**: Integrates with a Text-to-Speech API to convert text to audio.
+  - **AudioService**: Manages playback of audio files.
+  - **SettingsService**: Manages user preferences and settings.
+- **Technology**: Node.js, Express.js
+
+### Database
+- **Components**: User Collection, File Collection, Settings Collection
+- **Technology**: MongoDB (with Mongoose)
+
+### File Storage
+- **Components**: Handles storing and retrieving files.
+- **Technology**: AWS S3, MinIO
+
+### Use Case Diagram
 ```puml
 @startuml
 actor User
