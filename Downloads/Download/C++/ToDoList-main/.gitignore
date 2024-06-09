@@ -1,0 +1,25 @@
+# Ignore node_modules
+node_modules/
+
+# Ignore public directory (if you want to track only specific files)
+public/
+
+# Ignore Mac OS specific files
+.DS_Store
+
+# Ignore system files
+*.log
+*.tmp
+
+# Ignore IDE/editor files
+.vscode/
+.idea/
+
+# Ignore Python and virtual environment files
+__pycache__/
+*.pyc
+.venv/
+
+# Ignore system-specific files
+*.swp
+*~
