@@ -1,0 +1,15 @@
+# Ignore everything
+*
+
+# But not these files and directories
+!.gitignore
+!assets/
+!index.html
+!js/
+!project1.html
+!project2.html
+!project3.html
+!project4.html
+!readme.md
+!styles/
+
